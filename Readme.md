@@ -34,3 +34,31 @@ wp plugin search <plugin_name> --per-page=number
 ```
 
 **2) Install plugins:**
+```bash
+wp plugin install <plugin_name>
+```
+
+**3) Activate plugins:**
+```bash
+wp plugin activate <plugin_name>
+```
+
+**4) Update plugins:**
+```bash
+wp plugin update <plugin_name>
+```
+
+**5) Update all plugins:**
+```bash
+wp plugin update --all
+```
+**6) Show installed plugins:**
+```bash
+wp plugin list
+```
+**7) Uninstall plugins:**
+```bash
+wp plugin uninstall <plugin_name>
+```
+
+
