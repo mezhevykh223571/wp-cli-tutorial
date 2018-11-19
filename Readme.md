@@ -30,7 +30,7 @@ wp plugin search <plugin_name>
 
 If you want to see more that 10 plugins on per page:
 ```bash
-wp plugin search <plugin_name> --per-page=number
+wp plugin search <plugin_name> --per-page=<number>
 ```
 
 **2) Install plugins:**
