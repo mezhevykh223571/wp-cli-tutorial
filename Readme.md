@@ -21,8 +21,8 @@ wp core config --dbname="your_db_name" --dbuser="your_db_user" --dbpass="your_db
 wp core install --url="example.com" --title="Site Name" --admin-user="username" --admin-password="password" --admin-email="email@example.com"
 ```
 
-Install plugins:
-================
+Plugins:
+========
 **1) Search plugins:**
 ```bash
 wp plugin search <plugin_name>
