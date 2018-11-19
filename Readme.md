@@ -61,4 +61,25 @@ wp plugin list
 wp plugin uninstall <plugin_name>
 ```
 
+Themes:
+========
+**1) Search themes:**
+```bash
+wp theme search <theme_name>
+```
+
+If you want to see more that 10 theme on per page:
+```bash
+wp theme search <theme_name> --per-page=<number>
+```
+
+**2) Install themes:**
+```bash
+wp theme install <theme_name>
+```
+
+**3) Activate themes:**
+```bash
+wp theme activate <theme_name>
+```
 
