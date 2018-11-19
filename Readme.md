@@ -83,3 +83,20 @@ wp theme install <theme_name>
 wp theme activate <theme_name>
 ```
 
+**4) Update themes:**
+```bash
+wp theme update <theme_name>
+```
+
+**5) Update all themes:**
+```bash
+wp theme update --all
+```
+**6) Show installed themes:**
+```bash
+wp theme list
+```
+**7) Uninstall themes:**
+```bash
+wp theme uninstall <theme_name>
+```
