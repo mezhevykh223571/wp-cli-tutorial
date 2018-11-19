@@ -100,3 +100,10 @@ wp theme list
 ```bash
 wp theme uninstall <theme_name>
 ```
+
+Update Wordpress core:
+======================
+```bash
+wp core update
+wp core update-db
+```
