@@ -16,7 +16,7 @@ chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
 
-Now try running ```wp --info``` 
+Now try running ```wp --info``` to make sure it is installed.
 
 Updating WP-CLI:
 ================
