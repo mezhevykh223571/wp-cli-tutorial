@@ -27,7 +27,7 @@ Convert site to multisite:
 wp core multisite-convert --subdomains
 ```
 
-After isntalling multisite:
+After installing multisite:
 ===========================
 **Add this code to .htaccess:***
 ```
