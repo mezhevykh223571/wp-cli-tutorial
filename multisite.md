@@ -29,21 +29,19 @@ wp core multisite-convert --subdomains
 
 After installing multisite:
 ===========================
-**Add this code to .htaccess:**
+**Add the following to your .htaccess file in /path/to/your/site/, replacing other WordPress rules:**
 ```
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
-  RewriteRule ^index\.php$ - [L]
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
 
-  # add a trailing slash to /wp-admin
-  RewriteRule ^wp-admin$ wp-admin/ [R=301,L]
+# add a trailing slash to /wp-admin
+RewriteRule ^wp-admin$ wp-admin/ [R=301,L]
 
-  RewriteCond %{REQUEST_FILENAME} -f [OR]
-  RewriteCond %{REQUEST_FILENAME} -d
-  RewriteRule ^ - [L]
-  RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
-  RewriteRule ^(.*\.php)$ wp/$1 [L]
-  RewriteRule . index.php [L]
-</IfModule>
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+RewriteRule ^(wp-(content|admin|includes).*) $1 [L]
+RewriteRule ^(.*\.php)$ $1 [L]
+RewriteRule . index.php [L]
 ```
