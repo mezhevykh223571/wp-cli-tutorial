@@ -96,7 +96,7 @@ wp plugin uninstall <plugin_name>
 ```
 
 Themes:
-========
+=======
 **1) Search themes:**
 ```
 wp theme search <theme_name>
