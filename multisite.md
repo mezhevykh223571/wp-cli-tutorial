@@ -15,21 +15,21 @@ wp core download --version=<your_specific_version>
 wp core config --dbname="your_db_name" --dbuser="your_db_user" --dbpass="your_db_pass" --dbhost="your_db_host" --dbprefix="your_db_prefix"
 ```
 
-**3) Install multisite:***
+**3) Install multisite:**
 ```
 wp core multisite-install --subdomains --url="example.com" --title="Site Name" --admin_user="username" --admin_password="password" --admin_email="email@example.com"
 ```
 
 Convert site to multisite:
 ==========================
-**Run this command:***
+**Run this command:**
 ```
 wp core multisite-convert --subdomains
 ```
 
 After installing multisite:
 ===========================
-**Add this code to .htaccess:***
+**Add this code to .htaccess:**
 ```
 RewriteEngine On
 RewriteBase /
