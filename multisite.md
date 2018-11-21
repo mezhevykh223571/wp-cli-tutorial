@@ -52,7 +52,7 @@ How to uninstall multisite:
 ===========================
 **1) Backup your site**
 
-**2) Edit wp-config.php: **
+**2) Edit wp-config.php:**
 ```
 define( 'WP_ALLOW_MULTISITE', true );
 define( 'MULTISITE', true );
@@ -64,7 +64,7 @@ define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 ```
 
-**3) Drop Database Tables: **
+**3) Drop Database Tables:**
 1) wp_blogs
 2) wp_blog_versions
 3) wp_registration_log
