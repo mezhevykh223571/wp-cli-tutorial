@@ -31,7 +31,6 @@ sudo wp cli update
 Install WordPress:
 ==================
 **1) Download WordPress:**
-
 ```
 wp core download
 ```
