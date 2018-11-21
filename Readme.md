@@ -47,7 +47,7 @@ wp core config --dbname="your_db_name" --dbuser="your_db_user" --dbpass="your_db
 
 **3) Install WordPress:**
 ```
-wp core install --url="example.com" --title="Site Name" --admin-user="username" --admin-password="password" --admin-email="email@example.com"
+wp core install --url="example.com" --title="Site Name" --admin_user="username" --admin_password="password" --admin_email="email@example.com"
 ```
 
 Plugins:
