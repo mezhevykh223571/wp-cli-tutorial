@@ -1,5 +1,5 @@
-Install multisite:
-==================
+Install multisite (subdomains):
+===============================
 **1) Download WordPress:**
 ```
 wp core download
