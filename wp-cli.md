@@ -27,3 +27,9 @@ If WP-CLI is owned by root, use:
 ```
 sudo wp cli update
 ```
+
+Remove WP-CLI
+=============
+```
+sudo rm /usr/local/bin/wp
+```
